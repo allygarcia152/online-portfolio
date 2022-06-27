@@ -35,7 +35,7 @@ body {
   font-family: "VT323", monospace;
   letter-spacing: 0.1em;
   background: var(--primary-color);
-  color: var(--darker-primary);
+  color: var(--dark-primary);
 }
 
 a {
@@ -56,6 +56,13 @@ a {
 
 .nav-links {
   color: var(--dark-primary);
+}
+
+.headshot {
+  height: 200px;
+  box-shadow: 10px -10px 2px rgb(199, 192, 2);
+  border: 3px solid var(--secondary-color);
+  border-radius: 15px;
 }
 
 .circle {
@@ -87,4 +94,12 @@ a {
 
 .border-bottom {
   border-width: 5px !important;
+}
+
+.ml-4 {
+  margin-left: calc(2.5rem);
+}
+
+.ml-2 {
+  margin-left: calc(1rem);
 }
