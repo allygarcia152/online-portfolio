@@ -7,13 +7,32 @@ function Footer() {
   return (
     <footer className="d-flex flex-row ml-2">
       <div>
-        <img height="95px" className="d-flex" src={gitHub} alt=""></img>
+        <a target="_blank" href="https://github.com/allygarcia152">
+          <img height="85px" className="d-flex" src={gitHub} alt=""></img>
+        </a>
       </div>
+
       <div>
-        <img height="85px" className="d-flex ml-4" src={linkedIn} alt=""></img>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/allyson-garcia-70b099229/"
+        >
+          <img
+            height="80px"
+            className="d-flex ml-4"
+            src={linkedIn}
+            alt=""
+          ></img>
+        </a>
       </div>
+
       <div>
-        <img height="85px" className="d-flex ml-4" src={facebook} alt=""></img>
+      <a
+          target="_blank"
+          href="https://www.facebook.com/allyson.garcia.50746"
+        >
+        <img height="80px" className="d-flex ml-4" src={facebook} alt=""></img>
+        </a>
       </div>
     </footer>
   );

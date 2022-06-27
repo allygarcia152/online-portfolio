@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import resume from "../../assets/resume/Allyson_Garcia_Dev_Resume.pdf";
+import resumeIcon from "../../assets/icons/note.png"
 
 function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -42,7 +44,9 @@ function ContactForm() {
       <div className="circle my-3 mx-4">{"    "}</div>
       </div>
       <div className="p-4 d-flex flex-row bg-light rounded-bottom">
-      <a href='/somefile.txt' download>Click-to-Download-Resume</a>
+      <a href={resume} download>
+      <img height="75px" src={resumeIcon}></img>
+      Click-to-Download-Resume</a>
       <form className="d-flex ml-4" id="contact-form" onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Name:</label>
