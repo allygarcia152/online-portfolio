@@ -3,11 +3,11 @@ import headshot from "../../assets/photos/headshot.jpeg";
 
 function About() {
   return (
-    <section className="my-5 ml-4 border border-dark rounded d-flex flex-column">
+    <section className="my-5 ml-4 border border-dark rounded d-flex flex-column align-self-start">
       <div className="d-flex flex-row justify-content-between bg-secondary border-bottom border-dark rounded-top">
-        <h1 className="d-flex my-1 mx-3" id="about">
+        <h2 className="d-flex my-1 mx-3" id="about">
           Hi, I'm Ally
-        </h1>
+        </h2>
         <div className="circle my-3 mx-4">{"    "}</div>
       </div>
       <div className="p-4 d-flex flex-row bg-light rounded-bottom">
