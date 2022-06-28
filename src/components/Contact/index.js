@@ -42,11 +42,21 @@ function ContactForm() {
   return (
     <section className="my-5 ml-4 border border-dark rounded d-flex flex-column align-self-start">
       <div className="d-flex flex-row justify-content-between bg-secondary border-bottom border-dark rounded-top">
-        <h2 data-testid="h2tag">Send Me A Message</h2>
+        <h2 className="d-flex my-1 mx-3 window-title" data-testid="h2tag">Send Me A Message</h2>
         <div className="circle my-3 mx-4">{"    "}</div>
       </div>
-      <div className="p-4 d-flex flex-row bg-light rounded-bottom">
-        <form className="d-flex ml-4" id="contact-form" onSubmit={handleSubmit}>
+      <div className="p-4 d-flex flex-column bg-light rounded-bottom">
+        <div className="d-flex flex-column">
+          <p>
+            {" "}
+            Email: <span>allygarcia152@gmail.com</span>
+          </p>
+          <p>
+            {" "}
+            Phone: <span>956.543.3879</span>
+          </p>
+        </div>
+        <form className="d-flex flex-column ml-4" id="contact-form" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>
             <input
@@ -65,11 +75,12 @@ function ContactForm() {
               onBlur={handleChange}
             />
           </div>
-          <div>
+          <div className="align-self-start">
             <label htmlFor="message">Message:</label>
             <textarea
               name="message"
               rows="5"
+              cols="100"
               defaultValue={message}
               onBlur={handleChange}
             />

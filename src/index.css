@@ -10,9 +10,7 @@ main {
   --dark-primary: #8c76b6;
   --secondary-color: #f1f63dff;
   --tertiary-color: #ace5ccff;
-  --quaternary-color: #170e0e;
   --error: rgb(228, 46, 1);
-  --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
 }
@@ -36,10 +34,40 @@ body {
   letter-spacing: 0.1em;
   background: var(--primary-color);
   color: var(--dark-primary);
+  cursor: url("./assets/icons/pixelated-cursor.png");
+  overflow:hidden;
+}
+
+body:hover {
+  cursor: url("./assets/icons/pointer-cursor.png");
+}
+
+nav li:hover {
+  background-color: var(--dark-primary);
+  cursor: url("./assets/icons/pointer-cursor.png");
+}
+
+nav a:hover {
+  color: black;
 }
 
 a {
   text-decoration: none;
+}
+
+footer {
+  position:static;
+  bottom: 0;
+  width: 100%;
+}
+
+.view-port {
+  min-height: 98vh;
+  min-width: 95vw;
+}
+
+.wrapper {
+  flex: 1;
 }
 
 .bg-header {
@@ -50,12 +78,44 @@ a {
   background-color: var(--secondary-color) !important;
 }
 
+.bg-regex {
+  background-image: url(./assets/portfolio/regex.png);
+  background-size: 420px 290px;
+}
+
+.bg-tracker {
+  background-image: url(./assets/portfolio/employee-tracker.png);
+  background-size: 560px 400px;
+}
+
+.bg-runbuddy {
+  background-image: url(./assets/portfolio/runbuddy.png);
+  background-size: 380px 180px;
+}
+
+.bg-insertdisc {
+  background-image: url(./assets/portfolio/insert-disc.png);
+  background-size: 435px 220px;
+}
+
+.bg-oh-snap {
+  background-image: url(./assets/portfolio/oh-snap.png);
+  background-size: 420px 200px;
+}
+
+.bg-readme {
+  background-image: url(./assets/portfolio/readme.png);
+  background-size: 480px 340px;
+  background-position:bottom;
+}
+
 .name-logo {
   color: var(--secondary-color);
 }
 
 .nav-links {
   color: var(--dark-primary);
+  font-size: 30px;
 }
 
 .headshot {
@@ -72,6 +132,7 @@ a {
   border: solid, black, 4px !important;
   border-radius: 25px;
   box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+  justify-self: end;
 }
 
 .rounded {
@@ -97,13 +158,43 @@ a {
 }
 
 .ml-4 {
-  margin-left: calc(2.5rem);
+  margin-left: var(--spacing-five);
 }
 
 .ml-2 {
-  margin-left: calc(1rem);
+  margin-left: var(--spacing-two);
 }
 
 .icon-text {
   font-size: 15px;
+}
+
+.download {
+  font-size: 15px;
+  text-decoration: underline;
+  color: blue;
+}
+
+span {
+  color: black;
+}
+
+.error-text {
+  color: var(--error);
+}
+
+.window-title {
+  color: black;
+}
+
+.port-window {
+  min-height: 170px;
+}
+
+.port-pane {
+  min-width: 400px;
+}
+
+.small-text {
+  font-size: 20px;
 }
