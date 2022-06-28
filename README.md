@@ -17,20 +17,21 @@ View the repository here: [AllyG's online portfolio](https://allygarcia152.githu
 
 ## Usage
 
-In order to access each component of the portfolio, the user needs only to click on the respective links in the nav bar. The user can also click on the icons on the desktop as they are functional, not decorative. On the contact page, the user can enter in a message to send to the developer as long as they include their name and a valid email. 
+In order to access each component of the portfolio, the user needs only to click on the respective links in the nav bar. The user can also click on the icons on the desktop as they are functional, not decorative. On the contact page, the user can enter in a message to send to the developer as long as they include their name and a valid email.
 
 ![contact page screenshot](./screenshots/contact.png)
 
-On the Resume page, the user can click on the resume icon to download it, or simply view it in the pop-up window provided. 
+On the Resume page, the user can click on the resume icon to download it, or simply view it in the pop-up window provided.
 ![resume page screenshot](./screenshots/resume.png)
 
 On the Portfolio page, users can click on the text of the title of the project to see the GitHub repo, or click on the window body to see the deployed application if there is one.
 ![portfolio page screenshot](./screenshots/portfolio.png)
 
+The footer icons act as links to the developer's various social media sights. They connect to the dev's GitHub page, LinkedIn profile, and Facebook respectively.
+
 ## Contributions
 
-The icons used for this website are from Flaticon and created by [Freepik](https://www.flaticon.com/). This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started). 
-
+The icons used for this website are from Flaticon and created by [Freepik](https://www.flaticon.com/). This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 ## Updates
 
@@ -39,6 +40,3 @@ This application does not necessarily follow DRY practices and will be refactore
 ## Liscense
 
 This project is licensed under the MIT license. To abtain a copy of the license, visit: [https://choosealicense.com/licenses/mit](https://choosealicense.com/licenses/mit)
-
-
-
