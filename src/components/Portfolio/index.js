@@ -10,7 +10,7 @@ function Portfolio() {
             href="https://protected-headland-96637.herokuapp.com/"
           >
             <h2 className="d-flex my-2 mx-3 window-title" id="about">
-              code_it(full MERN stack)
+              code_it(MERN stack)
             </h2>
           </a>
 

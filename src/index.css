@@ -111,8 +111,8 @@ footer {
 
 .bg-code_it {
   background-image: url(./assets/portfolio/code_it.png);
-  background-size: 480px 340px;
-  background-position:top;
+  background-size: 400px 300px;
+  background-position:inherit;
 }
 
 .name-logo {
