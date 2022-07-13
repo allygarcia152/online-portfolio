@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/online-portfolio/static/css/main.93955919.css",
-    "main.js": "/online-portfolio/static/js/main.21fdc0cc.js",
+    "main.css": "/online-portfolio/static/css/main.1010fc34.css",
+    "main.js": "/online-portfolio/static/js/main.a3709255.js",
     "static/js/787.6aa2fdb7.chunk.js": "/online-portfolio/static/js/787.6aa2fdb7.chunk.js",
     "static/media/insert-disc.png": "/online-portfolio/static/media/insert-disc.571524bca771b52488db.png",
     "static/media/oh-snap.png": "/online-portfolio/static/media/oh-snap.f2ee479b56654ca60fbf.png",
@@ -14,12 +14,12 @@
     "static/media/Allyson_Garcia_Dev_Resume.pdf": "/online-portfolio/static/media/Allyson_Garcia_Dev_Resume.f802838a2c8b623d0ffa.pdf",
     "static/media/pixelatedgh.png": "/online-portfolio/static/media/pixelatedgh.a4994825156db7200a0e.png",
     "index.html": "/online-portfolio/index.html",
-    "main.93955919.css.map": "/online-portfolio/static/css/main.93955919.css.map",
-    "main.21fdc0cc.js.map": "/online-portfolio/static/js/main.21fdc0cc.js.map",
+    "main.1010fc34.css.map": "/online-portfolio/static/css/main.1010fc34.css.map",
+    "main.a3709255.js.map": "/online-portfolio/static/js/main.a3709255.js.map",
     "787.6aa2fdb7.chunk.js.map": "/online-portfolio/static/js/787.6aa2fdb7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93955919.css",
-    "static/js/main.21fdc0cc.js"
+    "static/css/main.1010fc34.css",
+    "static/js/main.a3709255.js"
   ]
 }
