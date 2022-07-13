@@ -109,6 +109,12 @@ footer {
   background-position:bottom;
 }
 
+.bg-code_it {
+  background-image: url(./assets/portfolio/code_it.png);
+  background-size: 480px 340px;
+  background-position:bottom;
+}
+
 .name-logo {
   color: var(--secondary-color);
 }

@@ -3,6 +3,23 @@ import React from "react";
 function Portfolio() {
   return (
     <section className="d-flex flex-row flex-wrap">
+      <div className="my-3 ml-4 border border-dark rounded d-flex flex-column align-self-start">
+        <div className="d-flex flex-row justify-content-between bg-secondary border-bottom border-dark rounded-top">
+          <a
+            target="_blank"
+            href="https://protected-headland-96637.herokuapp.com/"
+          >
+            <h2 className="d-flex my-2 mx-3 window-title" id="about">
+              code_it(full MERN stack)
+            </h2>
+          </a>
+
+          <div className="circle my-3 mx-4">{"    "}</div>
+        </div>
+        <a target="_blank" href="https://github.com/jwhitney2209/code-it">
+          <div className="p-4 d-flex flex-column bg-code_it rounded-bottom port-window" />
+        </a>
+      </div>
       <div className="my-3 ml-4 border border-dark rounded d-flex flex-column align-self-start port-pane">
         <div className="d-flex flex-row justify-content-between bg-secondary border-bottom border-dark rounded-top">
           <a target="_blank" href="https://github.com/allygarcia152/run-buddy">
