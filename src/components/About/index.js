@@ -3,8 +3,8 @@ import headshot from "../../assets/photos/headshot.jpeg";
 
 function About() {
   return (
-    <section className="flex flex-col md:mt-5 md:ml-5 border border-dark rounded align-self-start md:max-w-screen-md sm:max-w-screen sm:min-h-80 md:max-h-full">
-      <div className="flex flex-row justify-content-between bg-mellow border-bottom  rounded-top">
+    <section className="flex flex-col md:mt-5 md:ml-5 border border-dark rounded self-start md:max-w-screen-md sm:max-w-screen sm:min-h-80 md:max-h-full">
+      <div className="flex flex-row justify-between bg-mellow border-bottom rounded-top">
         <h2
           className="flex p-1 md:ml-2 sm:ml-1 mb-0 align-self-center text-black"
           id="about"

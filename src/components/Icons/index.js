@@ -7,7 +7,7 @@ import resume from "../../assets/icons/note.png";
 
 function Icons() {
   return (
-    <section className="md:my-1 md:mx-3 flex md:flex-col sm:flex-row md:gap-y-2 md:gap-x-0 sm:justify-between">
+    <section className="md:my-1 md:mx-3 flex md:flex-col sm:flex-row md:gap-y-2 md:gap-x-0 sm:justify-between md:content-start">
       <div>
         <Link to="/about">
           <img
