@@ -7,29 +7,48 @@ import resume from "../../assets/icons/note.png";
 
 function Icons() {
   return (
-    <section className="my-1 mx-3 d-flex flex-column">
+    <section className="md:my-1 md:mx-3 flex md:flex-col sm:flex-row md:gap-y-2 md:gap-x-0 sm:justify-between">
       <div>
         <Link to="/about">
-          <img height="85px" className="d-flex" src={user} alt=""></img>
-          <p className="text-dark icon-text">Learn-About-Me</p>
+          <img
+            className="flex sm:h-11 md:h-20 max-h-28 max-w-14 lg:grow-0"
+            src={user}
+            alt="pixelated icon of a person's head"
+          ></img>
+          <p className="text-dark md:text-base sm:text-sm">Learn-About-Me</p>
         </Link>
       </div>
       <div>
         <Link to="/portfolio">
-          <img height="85px" className="d-flex" src={portfolio} alt=""></img>
-          <p className="text-dark icon-text">See-My-Work</p>
+          <img
+            className="flex sm:h-11 md:h-20 max-h-28 max-w-14 lg:grow-0"
+            src={portfolio}
+            alt="pixelated icon of a file folder"
+          ></img>
+          <p className="text-dark md:text-base sm:text-sm">See-My-Work</p>
         </Link>
       </div>
       <div>
         <Link to="/contact">
-          <img height="85px" className="d-flex" src={contact} alt=""></img>
-          <p className="text-dark icon-text">Send-Me-A-Message</p>
+          <img
+            className="flex sm:h-11 md:h-20 max-h-28 max-w-14 lg:grow-0"
+            src={contact}
+            alt="pixelated icon of an envelop"
+          ></img>
+          <p className="text-dark md:text-base sm:text-sm">Send-Me-A-Message</p>
         </Link>
       </div>
       <div>
         <Link to="/resume">
-          <img height="85px" className="d-flex" src={resume} alt=""></img>
-          <p className="text-dark icon-text m-0">View-My-Resume</p>
+          <img
+            height="75px"
+            className="flex sm:h-11 md:h-20 max-h-28 max-w-14 lg:grow-0"
+            src={resume}
+            alt="pixelated icon of a paper"
+          ></img>
+          <p className="text-dark md:text-base sm:text-sm m-0">
+            View-My-Resume
+          </p>
         </Link>
       </div>
     </section>

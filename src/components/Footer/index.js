@@ -5,21 +5,29 @@ import facebook from "../../assets/icons/facebook.png";
 
 function Footer() {
   return (
-    <footer className="d-flex flex-row ml-2">
+    <footer className="flex flex-row md:bg-thistle sm:bg-mint md:justify-start sm:justify-center md:p-2 md:ml-2 sm:p-5 mt-auto">
       <div>
-        <a target="_blank" rel="noreferrer" href="https://github.com/allygarcia152">
-          <img height="85px" className="d-flex" src={gitHub} alt=""></img>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/allygarcia152"
+        >
+          <img
+            className="flex md:h-20 sm:h-10 max-h-20"
+            src={gitHub}
+            alt=""
+          ></img>
         </a>
       </div>
 
       <div>
         <a
-          target="_blank" rel="noreferrer"
+          target="_blank"
+          rel="noreferrer"
           href="https://www.linkedin.com/in/allyson-garcia-70b099229/"
         >
           <img
-            height="80px"
-            className="d-flex ml-4"
+            className="flex md:h-20 sm:h-10 max-h-20 ml-4"
             src={linkedIn}
             alt=""
           ></img>
@@ -27,11 +35,16 @@ function Footer() {
       </div>
 
       <div>
-      <a
-          target="_blank" rel="noreferrer"
+        <a
+          target="_blank"
+          rel="noreferrer"
           href="https://www.facebook.com/allyson.garcia.50746"
         >
-        <img height="80px" className="d-flex ml-4" src={facebook} alt=""></img>
+          <img
+            className="flex md:h-20 sm:h-10 max-h-20 ml-4"
+            src={facebook}
+            alt=""
+          ></img>
         </a>
       </div>
     </footer>

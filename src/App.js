@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div className="d-flex flex-column flex-wrap view-port">
         <Nav></Nav>
-        <main className="d-flex flex-row m-2 p-2 wrapper">
+        <main className="flex md:flex-row m-2 p-2 sm:flex-col">
           <Icons />
           <Routes>
             <Route path="/about" element={<About />} />

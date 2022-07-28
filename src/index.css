@@ -1,3 +1,6 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
 main {
@@ -9,8 +12,6 @@ main {
   --primary-color: #c5b9dd;
   --dark-primary: #8c76b6;
   --secondary-color: #f1f63dff;
-  --tertiary-color: #ace5ccff;
-  --error: rgb(228, 46, 1);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
 }
@@ -22,20 +23,22 @@ main {
 html,
 body {
   min-height: 100%;
+  min-width: 100%;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-weight: 600;
-  line-height: 1.5;
-  font-size: 22px;
+  /* font-weight: 600; */
+  /* line-height: 1.5; */
+  /* font-size: 22px; */
   font-family: "VT323", monospace;
   letter-spacing: 0.1em;
   background: var(--primary-color);
   color: var(--dark-primary);
   cursor: url("./assets/icons/pixelated-cursor.png");
-  overflow:hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 body:hover {
@@ -56,27 +59,27 @@ a {
 }
 
 footer {
-  position:static;
+  position: static;
   bottom: 0;
   width: 100%;
 }
 
 .view-port {
   min-height: 98vh;
-  min-width: 95vw;
+  /* min-width: 95vw; */
 }
 
 .wrapper {
   flex: 1;
 }
 
-.bg-header {
+/* .bg-header {
   background-color: var(--tertiary-color);
-}
+} */
 
-.bg-secondary {
+/* .bg-secondary {
   background-color: var(--secondary-color) !important;
-}
+} */
 
 .bg-regex {
   background-image: url(./assets/portfolio/regex.png);
@@ -106,13 +109,13 @@ footer {
 .bg-readme {
   background-image: url(./assets/portfolio/readme.png);
   background-size: 480px 340px;
-  background-position:bottom;
+  background-position: bottom;
 }
 
 .bg-code_it {
   background-image: url(./assets/portfolio/code_it.png);
   background-size: 400px 300px;
-  background-position:inherit;
+  background-position: inherit;
 }
 
 .name-logo {
@@ -121,13 +124,14 @@ footer {
 
 .nav-links {
   color: var(--dark-primary);
-  font-size: 30px;
+  /* font-size: 30px; */
 }
 
 .headshot {
-  height: 200px;
+  /* height: 200px;
+  max-width:100%; */
   box-shadow: 10px -10px 2px rgb(199, 192, 2);
-  border: 3px solid var(--secondary-color);
+  border: 3px solid rgb(199, 192, 2);
   border-radius: 15px;
 }
 
@@ -135,7 +139,7 @@ footer {
   width: 25px;
   height: 25px;
   background: lightgray;
-  border: solid, black, 4px !important;
+  border: solid, black, 1px !important;
   border-radius: 25px;
   box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
   justify-self: end;
@@ -160,7 +164,8 @@ footer {
 }
 
 .border-bottom {
-  border-width: 5px !important;
+  border-bottom: 4px solid black !important;
+  border-top: none;
 }
 
 .ml-4 {
@@ -171,9 +176,9 @@ footer {
   margin-left: var(--spacing-two);
 }
 
-.icon-text {
+/* .icon-text {
   font-size: 15px;
-}
+} */
 
 .download {
   font-size: 15px;
@@ -189,10 +194,6 @@ span {
   color: var(--error);
 }
 
-.window-title {
-  color: black;
-}
-
 .port-window {
   min-height: 170px;
 }
@@ -200,7 +201,7 @@ span {
 .port-pane {
   min-width: 400px;
 }
-
+/* 
 .small-text {
   font-size: 20px;
-}
+} */
