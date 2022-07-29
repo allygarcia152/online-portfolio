@@ -11,22 +11,22 @@ function Nav() {
       </h2>
       <ul className="hidden md:inline-flex sm:mx-2 md:mx-0 md:my-0 md:mt-1 flex-wrap gap-x-7 list-none">
         <li className="self-center">
-          <Link className="nav-links" to="/about">
+          <Link className="nav-links text-deep" to="/about">
             About me
           </Link>
         </li>
         <li className="self-center">
-          <Link className="nav-links" to="/portfolio">
+          <Link className="nav-links text-deep" to="/portfolio">
             Portfolio
           </Link>
         </li>
         <li className="self-center">
-          <Link className="nav-links" to="/contact">
+          <Link className="nav-links text-deep" to="/contact">
             Contact
           </Link>
         </li>
         <li className="self-center">
-          <Link className="nav-links" to="/resume">
+          <Link className="nav-links text-deep" to="/resume">
             Resume
           </Link>
         </li>
