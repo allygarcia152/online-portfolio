@@ -59,15 +59,15 @@ function ContactForm() {
   console.log(setToSend);
 
   return (
-    <section className="my-5 ml-4 border border-dark rounded d-flex flex-column align-self-start">
-      <div className="d-flex flex-row justify-content-between bg-secondary border-bottom border-dark rounded-top">
-        <h2 className="d-flex my-1 mx-3 window-title" data-testid="h2tag">
-          Send Me A Message
+    <section className="flex flex-col md:mt-5 md:ml-5 border border-dark rounded md:max-w-screen-md sm:max-w-screen sm:min-h-80 md:max-h-full md:w-2/3 md:justify-start sm:justify-center sm:m-2">
+      <div className="flex flex-row justify-between bg-mellow border-bottom rounded-top">
+        <h2 className="flex p-1 md:ml-2 sm:ml-1 mb-0 align-self-center text-black">
+          Send Me A Message :)
         </h2>
-        <div className="circle my-3 mx-4">{"    "}</div>
+        <div className="circle md:my-3 md:mx-4 sm:my-2 sm:mr-3">{"    "}</div>
       </div>
-      <div className="p-4 d-flex flex-column bg-light rounded-bottom">
-        <div className="d-flex flex-column">
+      <div className="md:p-4 flex flex-col bg-light rounded-bottom md:text-2xl sm:text-base sm:p-3">
+        <div className="flex flex-col">
           <p>
             Email:{" "}
             <a target="blank" href="mailto:allygarcia152@gmail.com">
@@ -79,11 +79,11 @@ function ContactForm() {
           </p>
         </div>
         <form
-          className="d-flex flex-column ml-4"
+          className="flex flex-col md:ml-4 sm:ml-0"
           id="contact-form"
           onSubmit={handleSubmit}
         >
-          <div>
+          <div className="flex md:flex-row sm:flex-col">
             <label htmlFor="name">Name:</label>
             <input
               type="text"
@@ -92,7 +92,7 @@ function ContactForm() {
               onBlur={handleChange}
             />
           </div>
-          <div>
+          <div className="flex md:flex-row sm:flex-col">
             <label htmlFor="email">Email address:</label>
             <input
               type="email"
@@ -101,17 +101,16 @@ function ContactForm() {
               onBlur={handleChange}
             />
           </div>
-          <div className="align-self-start flex-column">
-            <label htmlFor="message">Message:</label>
-            <textarea
-              type="text"
-              name="message"
-              rows="5"
-              cols="100"
-              defaultValue={toSend.message}
-              onBlur={handleChange}
-            />
-          </div>
+
+          <label htmlFor="message">Message:</label>
+          <textarea
+            type="text"
+            name="message"
+            defaultValue={toSend.message}
+            onBlur={handleChange}
+            className="w-full mb-2"
+          />
+
           {errorMessage && (
             <div>
               <p className="error-text">{errorMessage}</p>
@@ -122,7 +121,9 @@ function ContactForm() {
               <p className="text-success">{sentMessage}</p>
             </div>
           )}
-          <button type="submit">Submit</button>
+          <button type="submit" className="w-1/4">
+            Submit
+          </button>
         </form>
       </div>
     </section>

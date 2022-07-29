@@ -45,8 +45,8 @@ body:hover {
   cursor: url("./assets/icons/pointer-cursor.png");
 }
 
-nav li:hover {
-  background-color: var(--dark-primary);
+header li:hover {
+  /* background-color: var(--dark-primary); */
   cursor: url("./assets/icons/pointer-cursor.png");
 }
 

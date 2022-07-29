@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <header className="flex flex-wrap pt-1 md:pt-2 border-bottom bg-mint text-2xl md:text-3xl">
-      <h2 className="self-center mx-2 my-0 md:mt-1 text-mellow">
+      <h2 className="self-center mx-2 my-0 md:mt-1 text-mellow hover:text-deep">
         <Link className="name-logo" to="/">
           &lt;AllyG&#47;&gt;
         </Link>

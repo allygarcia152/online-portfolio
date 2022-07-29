@@ -11,7 +11,7 @@ function Icons() {
       <div>
         <Link to="/about">
           <img
-            className="flex sm:h-11 md:h-20 max-h-28 max-w-14 lg:grow-0"
+            className="flex sm:h-11 md:h-20 max-h-28 max-w-14 grow-0"
             src={user}
             alt="pixelated icon of a person's head"
           ></img>
@@ -21,7 +21,7 @@ function Icons() {
       <div>
         <Link to="/portfolio">
           <img
-            className="flex sm:h-11 md:h-20 max-h-28 max-w-14 lg:grow-0"
+            className="flex sm:h-11 md:h-20 max-h-28 max-w-14 grow-0"
             src={portfolio}
             alt="pixelated icon of a file folder"
           ></img>
@@ -31,7 +31,7 @@ function Icons() {
       <div>
         <Link to="/contact">
           <img
-            className="flex sm:h-11 md:h-20 max-h-28 max-w-14 lg:grow-0"
+            className="flex sm:h-11 md:h-20 max-h-28 max-w-14 grow-0"
             src={contact}
             alt="pixelated icon of an envelop"
           ></img>
@@ -42,7 +42,7 @@ function Icons() {
         <Link to="/resume">
           <img
             height="75px"
-            className="flex sm:h-11 md:h-20 max-h-28 max-w-14 lg:grow-0"
+            className="flex sm:h-11 md:h-20 max-h-28 max-w-14 grow-0"
             src={resume}
             alt="pixelated icon of a paper"
           ></img>
