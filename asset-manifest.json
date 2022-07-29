@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/online-portfolio/static/css/main.1010fc34.css",
-    "main.js": "/online-portfolio/static/js/main.a3709255.js",
-    "static/js/787.6aa2fdb7.chunk.js": "/online-portfolio/static/js/787.6aa2fdb7.chunk.js",
-    "static/media/insert-disc.png": "/online-portfolio/static/media/insert-disc.571524bca771b52488db.png",
-    "static/media/oh-snap.png": "/online-portfolio/static/media/oh-snap.f2ee479b56654ca60fbf.png",
-    "static/media/runbuddy.png": "/online-portfolio/static/media/runbuddy.c7e6a1dec65c924973f0.png",
-    "static/media/readme.png": "/online-portfolio/static/media/readme.7ba08902396bbdbb0533.png",
-    "static/media/headshot.jpeg": "/online-portfolio/static/media/headshot.afb5e40030cbbf115742.jpeg",
-    "static/media/employee-tracker.png": "/online-portfolio/static/media/employee-tracker.00727021b177f16cccbe.png",
-    "static/media/code_it.png": "/online-portfolio/static/media/code_it.f319b10192906d9762c2.png",
-    "static/media/regex.png": "/online-portfolio/static/media/regex.6fef9797165570e48a12.png",
-    "static/media/Allyson_Garcia_Dev_Resume.pdf": "/online-portfolio/static/media/Allyson_Garcia_Dev_Resume.f802838a2c8b623d0ffa.pdf",
-    "static/media/pixelatedgh.png": "/online-portfolio/static/media/pixelatedgh.a4994825156db7200a0e.png",
-    "index.html": "/online-portfolio/index.html",
-    "main.1010fc34.css.map": "/online-portfolio/static/css/main.1010fc34.css.map",
-    "main.a3709255.js.map": "/online-portfolio/static/js/main.a3709255.js.map",
-    "787.6aa2fdb7.chunk.js.map": "/online-portfolio/static/js/787.6aa2fdb7.chunk.js.map"
+    "main.css": "/static/css/main.fb30a88b.css",
+    "main.js": "/static/js/main.9521fecb.js",
+    "static/js/787.6aa2fdb7.chunk.js": "/static/js/787.6aa2fdb7.chunk.js",
+    "static/media/insert-disc.png": "/static/media/insert-disc.571524bca771b52488db.png",
+    "static/media/oh-snap.png": "/static/media/oh-snap.f2ee479b56654ca60fbf.png",
+    "static/media/runbuddy.png": "/static/media/runbuddy.c7e6a1dec65c924973f0.png",
+    "static/media/readme.png": "/static/media/readme.7ba08902396bbdbb0533.png",
+    "static/media/headshot.jpeg": "/static/media/headshot.afb5e40030cbbf115742.jpeg",
+    "static/media/employee-tracker.png": "/static/media/employee-tracker.00727021b177f16cccbe.png",
+    "static/media/code_it.png": "/static/media/code_it.f319b10192906d9762c2.png",
+    "static/media/regex.png": "/static/media/regex.6fef9797165570e48a12.png",
+    "static/media/Allyson_Garcia_Dev_Resume.pdf": "/static/media/Allyson_Garcia_Dev_Resume.f802838a2c8b623d0ffa.pdf",
+    "static/media/pixelatedgh.png": "/static/media/pixelatedgh.a4994825156db7200a0e.png",
+    "index.html": "/index.html",
+    "main.fb30a88b.css.map": "/static/css/main.fb30a88b.css.map",
+    "main.9521fecb.js.map": "/static/js/main.9521fecb.js.map",
+    "787.6aa2fdb7.chunk.js.map": "/static/js/787.6aa2fdb7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1010fc34.css",
-    "static/js/main.a3709255.js"
+    "static/css/main.fb30a88b.css",
+    "static/js/main.9521fecb.js"
   ]
 }
