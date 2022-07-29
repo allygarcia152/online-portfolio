@@ -12,8 +12,6 @@ main {
   --primary-color: #c5b9dd;
   --dark-primary: #8c76b6;
   --secondary-color: #f1f63dff;
-  /* --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem); */
 }
 
 * {
@@ -27,11 +25,6 @@ body {
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  /* font-weight: 600; */
-  /* line-height: 1.5; */
-  /* font-size: 22px; */
   font-family: "VT323", monospace;
   letter-spacing: 0.1em;
   background: var(--primary-color);
@@ -58,28 +51,13 @@ a {
   text-decoration: none;
 }
 
-footer {
-  position: static;
-  bottom: 0;
-  width: 100%;
-}
-
 .view-port {
   min-height: 98vh;
-  /* min-width: 95vw; */
 }
 
 .wrapper {
   flex: 1;
 }
-
-/* .bg-header {
-  background-color: var(--tertiary-color);
-} */
-
-/* .bg-secondary {
-  background-color: var(--secondary-color) !important;
-} */
 
 .bg-regex {
   background-image: url(./assets/portfolio/regex.png);
@@ -118,18 +96,7 @@ footer {
   background-position: inherit;
 }
 
-.name-logo {
-  color: var(--secondary-color);
-}
-
-.nav-links {
-  /* color: var(--dark-primary); */
-  /* font-size: 30px; */
-}
-
 .headshot {
-  /* height: 200px;
-  max-width:100%; */
   box-shadow: 10px -10px 2px rgb(199, 192, 2);
   border: 3px solid rgb(199, 192, 2);
   border-radius: 15px;
@@ -168,18 +135,6 @@ footer {
   border-top: none;
 }
 
-/* .ml-4 {
-  margin-left: var(--spacing-five);
-}
-
-.ml-2 {
-  margin-left: var(--spacing-two);
-} */
-
-/* .icon-text {
-  font-size: 15px;
-} */
-
 .download {
   font-size: 15px;
   text-decoration: underline;
@@ -189,7 +144,8 @@ footer {
 span {
   color: black;
 }
-m .error-text {
+
+.error-text {
   color: var(--error);
 }
 
@@ -200,10 +156,6 @@ m .error-text {
 .port-pane {
   min-width: 400px;
 }
-/* 
-.small-text {
-  font-size: 20px;
-} */
 
 @media only screen and (max-width: 1100px) {
   iframe {
